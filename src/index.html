@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>v WebLink</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            input {
+                display: block;
+                margin-bottom: 10px;
+                width: 100%;
+                padding: 8px;
+            }
+            button {
+                padding: 10px 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>v WebLink</h2>
+        <input
+            type="text"
+            id="websiteName"
+            placeholder="Website Name"
+            required
+        />
+        <input type="text" id="websiteUrl" placeholder="Website URL" required />
+        <button onclick="createShortcut()">Create Shortcut</button>
+
+        <p id="message"></p>
+
+        <script src="renderer.js"></script>
+    </body>
+</html>
