@@ -1,0 +1,21 @@
+{
+  "name": "vweblink_ubuntu",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ubuntu",
+    "website",
+    "link",
+    "app",
+    "shortcut"
+  ],
+  "author": "veer rajpoot",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^32.1.0"
+  }
+}
